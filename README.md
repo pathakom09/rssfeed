@@ -31,13 +31,3 @@ Make sure to install the following packages:
 ```bash
 pip install celery redis sqlalchemy spacy feedparser pymysql
 python -m spacy download en_core_web_sm
-
-
-
-Setup
-Install Redis: Make sure you have Redis installed and running on your local machine. You can download and install it from Redis.io.
-
-Database Setup:
-
-Set up a MySQL database and update the connection string in the code.
-The default connection string used in the code is
